@@ -1,2 +1,2 @@
 # testowanie
-Testowanie w Pythonir
+Testowanie w Pythonie
