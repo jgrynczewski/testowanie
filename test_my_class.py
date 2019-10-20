@@ -3,7 +3,7 @@ import math
 import pytest
 
 import my_class
-
+my_class.
 def test_dog_initialization():
     d = my_class.Dog("Azor")
     assert d.name == "Azor"
