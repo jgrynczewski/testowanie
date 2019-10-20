@@ -1,3 +1,4 @@
+import math
 
 class Dog:
     def __init__(self, name):
@@ -22,3 +23,17 @@ class Lamp:
 
     def is_lightening(self):
         return self.light
+
+
+class Calc:
+
+    def add(self, x, y):
+        return x + y
+
+
+def circle_area(r):
+    if type(r) not in [float, int]:
+        raise TypeError("The radius must be a number")
+    if r<0:
+        raise ValueError("The radius cannot be negative")
+    return math.pi*(r**2)
